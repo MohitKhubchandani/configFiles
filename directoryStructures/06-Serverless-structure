@@ -1,0 +1,12 @@
+project/
+├── functions/              # Serverless functions
+│   ├── auth.js
+│   ├── upload.js
+├── public/                 # Static files
+├── src/                    # Application code
+│   ├── components/
+│   ├── utils/
+├── .env
+├── netlify.toml            # Netlify configuration
+├── package.json
+└── README.md

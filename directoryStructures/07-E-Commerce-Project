@@ -1,0 +1,13 @@
+project/
+├── config/                 # App and database configuration
+├── controllers/            # Business logic for products, orders, users
+├── models/                 # Database schemas
+├── routes/                 # API routes
+├── middlewares/            # Authentication, error handling
+├── services/               # Payment, inventory management
+├── public/                 # Static assets
+├── views/                  # Templates for rendering
+├── utils/                  # Utilities (e.g., token generation)
+├── .env
+├── app.js                  # Main server file
+└── package.json

@@ -1,0 +1,11 @@
+project/
+├── node_modules/
+├── public/                 # Static files (images, CSS, JavaScript)
+├── routes/                 # Route handlers
+│   ├── index.js
+│   ├── user.js
+├── views/                  # Templates (for templating engines like EJS)
+├── .env                    # Environment variables
+├── app.js                  # Main server file
+├── package.json            # Dependencies and scripts
+└── README.md

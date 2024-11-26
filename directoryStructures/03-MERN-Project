@@ -1,0 +1,22 @@
+project/
+├── client/                 # React front-end
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── styles/
+│   │   ├── App.js
+│   │   ├── index.js
+│   └── package.json
+├── server/                 # Node.js backend
+│   ├── config/             # Configurations
+│   │   ├── database.js
+│   │   ├── server.js
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   ├── middlewares/
+│   ├── .env
+│   ├── app.js
+│   └── package.json
+└── README.md

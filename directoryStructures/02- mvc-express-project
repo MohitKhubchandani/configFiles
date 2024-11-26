@@ -1,0 +1,24 @@
+project/
+├── config/                 # Configurations (e.g., database, environment)
+│   ├── database.js
+│   └── server.js
+├── controllers/            # Controllers for business logic
+│   ├── authController.js
+│   └── userController.js
+├── models/                 # Database models
+│   ├── userModel.js
+│   └── productModel.js
+├── routes/                 # Routes definition
+│   ├── authRoutes.js
+│   └── userRoutes.js
+├── middlewares/            # Middleware functions
+│   ├── authMiddleware.js
+│   └── errorMiddleware.js
+├── public/                 # Static files (CSS, JS, images)
+├── views/                  # Templating views (if applicable)
+│   ├── login.ejs
+│   └── dashboard.ejs
+├── .env
+├── app.js                  # Main server file
+├── package.json
+└── README.md

@@ -1,0 +1,18 @@
+project/
+├── modules/                # Feature-based modules
+│   ├── auth/
+│   │   ├── controllers/
+│   │   ├── models/
+│   │   ├── routes/
+│   │   └── services/
+│   ├── user/
+│   │   ├── controllers/
+│   │   ├── models/
+│   │   ├── routes/
+│   │   └── services/
+├── shared/                 # Shared resources (e.g., middleware, utils)
+├── config/
+├── public/
+├── .env
+├── app.js
+└── package.json

@@ -1,0 +1,19 @@
+project/
+├── config/                 # Configuration files
+├── controllers/            # Route logic (API endpoints)
+│   ├── authController.js
+│   └── postController.js
+├── routes/                 # Routes definition
+│   ├── authRoutes.js
+│   └── postRoutes.js
+├── models/                 # Schema and database models
+│   ├── userModel.js
+│   └── postModel.js
+├── middlewares/            # Middleware functions
+├── services/               # Reusable services (e.g., email, external APIs)
+├── utils/                  # Utility functions/helpers
+│   ├── logger.js
+│   ├── errorHandler.js
+├── .env
+├── app.js                  # Main server file
+└── package.json

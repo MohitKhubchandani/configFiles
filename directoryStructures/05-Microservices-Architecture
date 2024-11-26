@@ -1,0 +1,21 @@
+project/
+├── auth-service/           # Microservice for authentication
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   ├── app.js
+│   └── package.json
+├── user-service/           # Microservice for user management
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   ├── app.js
+│   └── package.json
+├── gateway/                # API Gateway
+│   ├── routes/
+│   ├── app.js
+│   └── package.json
+├── shared/                 # Shared utilities/configurations
+│   ├── config/
+│   ├── utils/
+└── README.md
